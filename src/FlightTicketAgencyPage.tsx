@@ -6,22 +6,22 @@ const FlightTicketAgencyPage: React.FC = () => {
     {
       title: "国际机票预订",
       desc: "覆盖热门国际航线，提供多种舱位与出行方案选择。",
-      image: "/images/国际.jpg"
+      image: process.env.PUBLIC_URL + "/images/国际.jpg"
     },
     {
       title: "国内机票预订",
       desc: "支持商务出行、探亲出行与旅游出行的一站式机票咨询。",
-      image: "/images/国内.jpg"
+      image: process.env.PUBLIC_URL + "/images/国内.jpg"
     },
     {
       title: "团队与商务出行",
       desc: "为企业差旅、会议活动与团队出行提供统一订票服务。",
-      image: "/images/商务.png"
+      image: process.env.PUBLIC_URL + "/images/商务.png"
     },
     {
       title: "行程咨询服务",
       desc: "根据预算、时间与目的地需求，协助匹配合适航班方案。",
-      image: "/images/咨询.png"
+      image: process.env.PUBLIC_URL + "/images/咨询.png"
     }
   ];
 
