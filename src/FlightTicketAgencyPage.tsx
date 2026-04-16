@@ -224,6 +224,16 @@ const FlightTicketAgencyPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <footer className="site-footer">
+        <div className="container footer-inner">
+          <span>沪ICP备2026010355号</span>
+          <span>|</span>
+          <span>
+            Copyright © {new Date().getFullYear()} 上海远晶旅游咨询有限公司 版权所有
+          </span>
+        </div>
+      </footer>
     </div>
   );
 };

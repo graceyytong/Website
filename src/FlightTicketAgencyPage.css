@@ -514,6 +514,33 @@ a {
   color: #64748b;
 }
 
+.site-footer {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.96);
+  border-top: 1px solid #dcdfe6;
+  padding: 8px 0;
+}
+
+.site-footer .footer-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.site-footer .footer-inner a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-footer .footer-inner a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 1200px) {
   .line-4 {
